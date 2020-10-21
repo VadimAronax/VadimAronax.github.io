@@ -183,12 +183,14 @@ ul {
   }
   #content_container {
     width: 699px;
+
     border-left: 1px solid #403F44;
     float: left;
   }
 
   #education_container, #skills_container, #work_container, #cert_container{
     width: 699px;
+    min-height: 844px;
     border-left: 1px solid #403F44;
     float: left;
     display: none;
