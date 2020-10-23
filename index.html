@@ -39,12 +39,8 @@ function showDiv(el) {
           document.getElementById('cert').className += "no_border purple";
           document.getElementById('cert_container').style.display = "block";
         }
-
-
-
       }
     </script>
-
 
     <link href='https://fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic' rel='stylesheet' type='text/css'>
 
@@ -77,54 +73,86 @@ function showDiv(el) {
         </ul>
 
       </div>
-    <!-- LEFT COL -->
-    <div id="left_col">
-      <div class="profile_frame">
-        <div class="profile_picture"></div>
-        <!-- <img src="images/javier_latorre.jpg" alt="profile picture"> -->
+      <!-- LEFT COL -->
+      <div id="left_col">
+        <div class="profile_frame">
+          <div class="profile_picture"></div>
+          <!-- <img src="images/javier_latorre.jpg" alt="profile picture"> -->
+        </div>
+        <div class="hello_content">
+          <h2>Hello!</h2>
+          <p>I'm passionate about technology from all sides, hardworker and a fast-learner.</p>
+        </div>
+        <div class="contact_details_content">
+          <h2>Contact details</h2>
+          <!--<p class="purple">Phone:</p>-->
+          <!--p></p-->
+          <p class="purple">Email:</p>
+          <p>karpievichva@gmail.com</p>
+          <p class="purple">Adress:</p>
+          <!--p></p-->
+          <p>Minsk, Belarus</p>
+          <!--p>23001</p-->
+        </div>
+        <a href="mailto:karpievichva@gmail.com" class="send_message_button">
+          <span class="cut1"></span>
+          <span class="cut2"></span>
+          <span class="content">Send me a message <span class="fontawesome-double-angle-right"></span></span>
+        </a>
+        <div class="get_social_content">
+          <h2>Get social</h2>
+          <ul class="social_icons horizontal_list">
+            <!--<li><a class="facebook" href=""><span class="entypo-facebook-circled"></span><span class="invisible">Facebook</span></a></li>-->
+            <!--<li><a class="twitter" href=""><span class="entypo-twitter-circled"></span><span class="invisible">Twitter</span></a></li>-->
+            <li><a class="linkedin" href="https://www.linkedin.com/in/vadim-karpievich/"><span class="entypo-linkedin-circled"></span><span class="invisible">LinkedIn</span></a></li>
+          </ul>
+        </div>
       </div>
-      <div class="hello_content">
-        <h2>Hello!</h2>
-        <p>I'm passionate about technology from all sides, hardworker and a fast-learner.</p>
-      </div>
-      <div class="contact_details_content">
-        <h2>Contact details</h2>
-        <!--<p class="purple">Phone:</p>-->
-        <!--p></p-->
-        <p class="purple">Email:</p>
-        <p>karpievichva@gmail.com</p>
-        <p class="purple">Adress:</p>
-        <!--p></p-->
-        <p>Minsk, Belarus</p>
-        <!--p>23001</p-->
-      </div>
-      <a href="mailto:karpievichva@gmail.com" class="send_message_button">
-        <span class="cut1"></span>
-        <span class="cut2"></span>
-        <span class="content">Send me a message <span class="fontawesome-double-angle-right"></span></span>
-      </a>
-      <div class="get_social_content">
-        <h2>Get social</h2>
-        <ul class="social_icons horizontal_list">
-          <!--<li><a class="facebook" href=""><span class="entypo-facebook-circled"></span><span class="invisible">Facebook</span></a></li>-->
-          <!--<li><a class="twitter" href=""><span class="entypo-twitter-circled"></span><span class="invisible">Twitter</span></a></li>-->
-          <li><a class="linkedin" href="https://www.linkedin.com/in/vadim-karpievich/"><span class="entypo-linkedin-circled"></span><span class="invisible">LinkedIn</span></a></li>
-        </ul>
-      </div>
-    </div>
-    <!-- PROFILE CONTENT -->
+      <!-- PROFILE CONTENT -->
 
-    <div id="education_container" class= "con" style="display: none;">  
+      <div id="education_container" class= "con" style="display: none;">  
 
-      <div class="block">
-        <h1>Education</h1>
+        <div class="block">
+          <h1>Education</h1>
+          <div class="data_main">
+            <div id="data_line">
+              <div id="data_end">
+               <p>01.2020</p>
+             </div>
+             <div id="data_begin">
+               <p>11.2019</p>
+             </div>
+           </div>
+           <div class="period">
+
+            <blockquote class="profile_quote">
+              <span class="circle_up"></span>
+              <!-- <h2>2019-2020</h2>-->
+              <h2>Educational school "My monday"</h2>
+              <h2></h2>
+
+              <p>Skills and abilities received:</p>
+              <ul>
+                <li>Manual testing</li>
+                <li>Automation testing</li>
+                <li>Automation testing</li>
+                <li>Testing web-services and mobile applications (Android, iOS)</li>
+              </ul>
+              <!-- <span class="entypo-quote"></span>-->
+              <span class="circle_down"></span>
+            </blockquote>
+
+          </div>
+        </div>
+
+
         <div class="data_main">
           <div id="data_line">
             <div id="data_end">
-             <p>01.2020</p>
+             <p>07.2017</p>
            </div>
            <div id="data_begin">
-             <p>11.2019</p>
+             <p>09.2012</p>
            </div>
          </div>
          <div class="period">
@@ -132,32 +160,144 @@ function showDiv(el) {
           <blockquote class="profile_quote">
             <span class="circle_up"></span>
             <!-- <h2>2019-2020</h2>-->
-            <h2>Educational school "My monday"</h2>
-            <h2></h2>
+            <h2>BSU</h2>
+            <h3>Biological faculty</h3>
+            <p>Biotechnology</p>
 
-            <p>Skills and abilities received:</p>
-            <ul>
-              <li>Manual testing</li>
-              <li>Automation testing</li>
-              <li>Automation testing</li>
-              <li>Testing web-services and mobile applications (Android, iOS)</li>
-            </ul>
             <!-- <span class="entypo-quote"></span>-->
             <span class="circle_down"></span>
           </blockquote>
 
         </div>
       </div>
+    </div>
+    
+  </div>
 
+  <div id="content_container" class= "con" style="display: block">        
+    <div class="block">
+      <h1>Profile</h1>
+      <blockquote class="profile_quote">
+        <p>“The man of wisdom is never of two minds;</p>
+        <p>the man of benevolence never worries;</p>
+        <p>the man of courage is never afraid.”</p>
+        <p>― Confucius</p>
+        <span class="entypo-quote"></span>
+      </blockquote>
+    </div>
+    <div class="block">
+      <h2>A few words about me</h2>
+      <p>
+      I am an open, inquisitive person who has a passion for any technology and activities associated with it: testing, programming, gamedev, data science, neural networks and etc. If you ask me, WHY did I become a QA and not a programmer? Because I want more then anything to do things better and I have great pleasure from it.</p>       
+    </div>
+    <div class="horizontal_line">
+      <div class="line_left"></div>
+      <div class="left_circle"></div>
+      <div class="central_circle"></div>
+      <div class="right_circle"></div>
+      <div class="line_right"></div>
+    </div>
+    <div class="block">
+      <h2>Philosophy</h2>
+      <div class="philosophy_content">
+        <p>I believe life is made from different shades of grey, not from black and white. Furthermore, as a human being with rationality, I think it is our duty to take care of the world and treat others as one would like others to treat oneself. This way of perceiving reality affects my beliefs and my way of behaving. Summarizing on several points:</p>
+        <ul>
+          <li>Pragmatic</li>
+          <li>Honest</li>
+          <li>Respectful</li>
+          <li>Open-minded</li>
+          <li>Coherent</li>
+        </ul>
+        <div class="clear"></div>
+      </div>
+    </div>
+    <div class="horizontal_line">
+      <div class="line_left"></div>
+      <div class="left_circle"></div>
+      <div class="central_circle"></div>
+      <div class="right_circle"></div>
+      <div class="line_right"></div>
+    </div>
+    <div class="last block">
+      <h2>Interests & Hobbies</h2>
+      <p>I'm passionate about technology, and it's determine almost all my interests and hobbies:</p>
+      <ul>
+        <li>Testing</li>
+        <li>Unity development</li>
+        <li>Computer Gamming</li>
+        <li>Visiting new places</li>
+        <li>Meeting people</li>
+        <li>Having new experiences</li>
+        <li>Fishing and camping</li>
+        <li>Web Developing</li>
+      </ul>
+    </div>
+  </div>
 
+  <div id="cert_container" class= "con" style="display: none;">        
+    <div class="block">
+      <h1>E-certificates</h1>
+      <ul id="certif_list">
+        <li><a href="https://stepik.org/cert/270717">Автоматизация тестирования с помощью Selenium и Python</a></li>
+        <li><a href="https://www.sololearn.com/Certificate/1023-16828632/pdf/">CSS Fundamentals</a></li>
+        <li><a href="https://www.sololearn.com/Certificate/1014-16828632/pdf/">HTML Fundamentals</a></li>
+        <li><a href="https://www.sololearn.com/Certificate/1060-16828632/pdf/">SQL Fundamentals</a></li>
+        <li><a href="https://stepik.org/cert/245125">Тестирование ПО: Базовый уровень</a></li>
+        <p></p>   
+      </ul>
+    </div>
+    
+  </div>
 
+  <div id="skills_container" class= "con" style="display: none;">        
+    <div class="block">
+      <h1>Skills</h1>
+      <h2>Basic skills & Tools</h2>
+
+      <ul>
+        <li>Postman</li>
+        <li>Chrome DevTools</li>
+        <li>Fiddler</li>
+        <li>Charles</li>
+        <p></p>   
+      </ul>
+      <p>Mobile:</p>
+      <ul>
+        <li>ADB</li>
+        <li>Android studio</li>
+      </ul>
+    </div>
+    <div class="horizontal_line">
+      <div class="line_left"></div>
+      <div class="left_circle"></div>
+      <div class="central_circle"></div>
+      <div class="right_circle"></div>
+      <div class="line_right"></div>
+    </div>
+    <div class="block">
+      <h2>Additional skills & Tools</h2>
+
+      <ul>
+        <li>Git</li>
+        <li>SQL(basic queries)</li>
+        <li>Basic knowledge of Python, C#</li>
+        <p></p>   
+      </ul>
+
+    </div>
+  </div>
+
+  <div id="work_container" class= "con" style="display: none;">  
+
+    <div class="block">
+      <h1>Experience</h1>
       <div class="data_main">
         <div id="data_line">
           <div id="data_end">
-           <p>07.2017</p>
+           <p>Present</p>
          </div>
          <div id="data_begin">
-           <p>09.2012</p>
+           <p>03.2020</p>
          </div>
        </div>
        <div class="period">
@@ -165,145 +305,31 @@ function showDiv(el) {
         <blockquote class="profile_quote">
           <span class="circle_up"></span>
           <!-- <h2>2019-2020</h2>-->
-          <h2>BSU</h2>
-          <h3>Biological faculty</h3>
-          <p>Biotechnology</p>
-
+          <h2>ELTEAM GROUP</h2>
+          <p>Responsibilities:</p>
+          <ul>
+            <li>Testing of mobile iOS/Android applications (functional, localization, smoke, regression, usability)</li>
+            <li>Testing of websites</li>
+            <li>Testing of event tracking (Amplitude, Appsflyer, Facebook analytics, Firebase)</li>
+            <li>Tracking of client/server issues analytics (Crashlytics, Sentry)</li>
+            <li>Communications with project managers and developers</li>
+          </ul>
           <!-- <span class="entypo-quote"></span>-->
           <span class="circle_down"></span>
         </blockquote>
 
       </div>
-</div>
     </div>
-    
-  </div>
 
 
-<div id="content_container" class= "con" style="display: block">        
-  <div class="block">
-    <h1>Profile</h1>
-    <blockquote class="profile_quote">
-      <p>“The man of wisdom is never of two minds;</p>
-      <p>the man of benevolence never worries;</p>
-      <p>the man of courage is never afraid.”</p>
-      <p>― Confucius</p>
-      <span class="entypo-quote"></span>
-    </blockquote>
-  </div>
-  <div class="block">
-    <h2>A few words about me</h2>
-    <p>
-I am an open, inquisitive person who has a passion for any technology and activities associated with it: testing, programming, gamedev, data science, neural networks and etc. If you ask me, WHY did I become a QA and not a programmer? Because I want more then anything to do things better and I have great pleasure from it.</p>       
-  </div>
-  <div class="horizontal_line">
-    <div class="line_left"></div>
-    <div class="left_circle"></div>
-    <div class="central_circle"></div>
-    <div class="right_circle"></div>
-    <div class="line_right"></div>
-  </div>
-  <div class="block">
-    <h2>Philosophy</h2>
-        <div class="philosophy_content">
-      <p>I believe life is made from different shades of grey, not from black and white. Furthermore, as a human being with rationality, I think it is our duty to take care of the world and treat others as one would like others to treat oneself. This way of perceiving reality affects my beliefs and my way of behaving. Summarizing on several points:</p>
-      <ul>
-        <li>Pragmatic</li>
-        <li>Honest</li>
-        <li>Respectful</li>
-        <li>Open-minded</li>
-        <li>Coherent</li>
-      </ul>
-      <div class="clear"></div>
-    </div>
-  </div>
-  <div class="horizontal_line">
-    <div class="line_left"></div>
-    <div class="left_circle"></div>
-    <div class="central_circle"></div>
-    <div class="right_circle"></div>
-    <div class="line_right"></div>
-  </div>
-  <div class="last block">
-    <h2>Interests & Hobbies</h2>
-    <p>I'm passionate about technology, and it's determine almost all my interests and hobbies:</p>
-    <ul>
-      <li>Testing</li>
-      <li>Unity development</li>
-      <li>Computer Gamming</li>
-      <li>Visiting new places</li>
-      <li>Meeting people</li>
-      <li>Having new experiences</li>
-      <li>Fishing and camping</li>
-      <li>Web Developing</li>
-    </ul>
-  </div>
-</div>
 
-<div id="cert_container" class= "con" style="display: none;">        
-  <div class="block">
-    <h1>E-certificates</h1>
-    <ul id="certif_list">
-      <li><a href="https://stepik.org/cert/270717">Автоматизация тестирования с помощью Selenium и Python</a></li>
-      <li><a href="https://www.sololearn.com/Certificate/1023-16828632/pdf/">CSS Fundamentals</a></li>
-      <li><a href="https://www.sololearn.com/Certificate/1014-16828632/pdf/">HTML Fundamentals</a></li>
-      <li><a href="https://www.sololearn.com/Certificate/1060-16828632/pdf/">SQL Fundamentals</a></li>
-      <li><a href="https://stepik.org/cert/245125">Тестирование ПО: Базовый уровень</a></li>
-      <p></p>   
-    </ul>
-  </div>
- 
-</div>
-
-<div id="skills_container" class= "con" style="display: none;">        
-  <div class="block">
-    <h1>Skills</h1>
-    <h2>Basic skills & Tools</h2>
-
-    <ul>
-      <li>Postman</li>
-      <li>Chrome DevTools</li>
-      <li>Fiddler</li>
-      <li>Charles</li>
-      <p></p>   
-    </ul>
-    <p>Mobile:</p>
-    <ul>
-      <li>ADB</li>
-      <li>Android studio</li>
-    </ul>
-  </div>
-  <div class="horizontal_line">
-    <div class="line_left"></div>
-    <div class="left_circle"></div>
-    <div class="central_circle"></div>
-    <div class="right_circle"></div>
-    <div class="line_right"></div>
-  </div>
-  <div class="block">
-    <h2>Additional skills & Tools</h2>
-
-    <ul>
-      <li>Git</li>
-      <li>SQL(basic queries)</li>
-      <li>Basic knowledge of Python, C#</li>
-      <p></p>   
-    </ul>
-
-  </div>
-</div>
-
-<div id="work_container" class= "con" style="display: none;">  
-
-  <div class="block">
-    <h1>Experience</h1>
     <div class="data_main">
       <div id="data_line">
         <div id="data_end">
-         <p>Present</p>
+         <p>01.2020</p>
        </div>
        <div id="data_begin">
-         <p>03.2020</p>
+         <p>09.2017</p>
        </div>
      </div>
      <div class="period">
@@ -311,51 +337,17 @@ I am an open, inquisitive person who has a passion for any technology and activi
       <blockquote class="profile_quote">
         <span class="circle_up"></span>
         <!-- <h2>2019-2020</h2>-->
-        <h2>ELTEAM GROUP</h2>
-        <p>Responsibilities:</p>
-        <ul>
-          <li>Testing of mobile iOS/Android applications (functional, localization, smoke, regression, usability)</li>
-          <li>Testing of websites</li>
-          <li>Testing of event tracking (Amplitude, Appsflyer, Facebook analytics, Firebase)</li>
-          <li>Tracking of client/server issues analytics (Crashlytics, Sentry)</li>
-          <li>Communications with project managers and developers</li>
-        </ul>
+        <h2>BSU</h2>
+        <h3>SRL "Molecular genetics and biotechnology"</h3>
+        <p>Researcher</p>
+
         <!-- <span class="entypo-quote"></span>-->
         <span class="circle_down"></span>
       </blockquote>
 
     </div>
   </div>
-
-
-
-  <div class="data_main">
-    <div id="data_line">
-      <div id="data_end">
-       <p>01.2020</p>
-     </div>
-     <div id="data_begin">
-       <p>09.2017</p>
-     </div>
-   </div>
-   <div class="period">
-
-    <blockquote class="profile_quote">
-      <span class="circle_up"></span>
-      <!-- <h2>2019-2020</h2>-->
-      <h2>BSU</h2>
-      <h3>SRL "Molecular genetics and biotechnology"</h3>
-      <p>Researcher</p>
-
-      <!-- <span class="entypo-quote"></span>-->
-      <span class="circle_down"></span>
-    </blockquote>
-
-  </div>
 </div>
-</div>
-
-
 
 </div>
 </div>
@@ -365,7 +357,6 @@ I am an open, inquisitive person who has a passion for any technology and activi
 <div id="footer">
   <p class="footer_name">Karpievich Vadim CV 2020</p>
 </div>
-
 
 </body>
 </html>

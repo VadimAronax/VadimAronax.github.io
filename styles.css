@@ -330,7 +330,7 @@ ul {
     width: 30px;
     height: 30px;
     z-index: 9;
-    background: url(http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/dark_wall.png) repeat;
+    background: url(dark_wall.png) repeat;
     transform: rotate(45deg);
   }
   .cut2:before {
@@ -341,7 +341,7 @@ ul {
       width: 30px;
       height: 30px;
       z-index: 9;
-      background: url(http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/dark_wall.png) repeat;
+      background: url(dark_wall.png) repeat;
       transform: rotate(45deg);
   }
   .content {
