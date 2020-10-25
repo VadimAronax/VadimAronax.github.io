@@ -10,7 +10,22 @@
 <body>
   <canvas id=c></canvas>
   <script>
+ var f = [], i;
+var d = ['💓✊✌️'];
+            for (i = 0; i < 12; i ++) {
+                f.push(String.fromCodePoint(0x1F550 + i));
+                //f.push(String.fromCodePoint(0x1F550 + i + 12)); // half hours
+            }
 
+            function loop() {
+                location.hash =  f[Math.floor((Date.now()/100)%f.length)] + '💓✊✌' + f[Math.floor((Date.now()/100)%f.length)];
+
+                setTimeout(loop, 50);
+            }
+
+            window.addEventListener('load', function () {
+                loop();
+            });
 //if you read this - sorry about this peace of shitcode :)))
 function showDiv(el) {
         // document.querySelector("[class='no_border purple']").className -= "no_border purple";
